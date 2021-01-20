@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Jan 20 11:36:18 2021
+# Process ID: 18680
+# Current directory: G:/Write_to_BRAM/Write_to_BRAM/Write_to_BRAM.runs/Write_to_BRAM_axi_smc_0_synth_1
+# Command line: vivado.exe -log Write_to_BRAM_axi_smc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Write_to_BRAM_axi_smc_0.tcl
+# Log file: G:/Write_to_BRAM/Write_to_BRAM/Write_to_BRAM.runs/Write_to_BRAM_axi_smc_0_synth_1/Write_to_BRAM_axi_smc_0.vds
+# Journal file: G:/Write_to_BRAM/Write_to_BRAM/Write_to_BRAM.runs/Write_to_BRAM_axi_smc_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Write_to_BRAM_axi_smc_0.tcl -notrace
