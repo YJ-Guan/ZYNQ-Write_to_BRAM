@@ -1,6 +1,6 @@
 # <center>ZYNQ: Write/Read between PS &PL</center>
 
-
+**Date:2021/1/20     Author: YJ Guan**
 
 ### Part 1 - Block Diagram
 
@@ -16,11 +16,19 @@
 
 **Write/Read from PS through AXI BRAM Controller:**
 
-Address = XPAR_AXI_BRAM_CTRL_1_S_AXI_BASEADDR (PS Offset)+ BRAM_ADDR
+Address = *XPAR_AXI_BRAM_CTRL_1_S_AXI_BASEADDR (PS Offset)*+ BRAM_ADDR
 
 **Write/Read Directly to BRAM through BRAM_PORT through PL:**
 
 Address =  BRAM_ADDR
+
+### Part 3 - Implementation
+
+Button T18 on zedboard is set as a interrupt port. The PS reading part is interrupted until T18 is pushed. Before that, BRAM can be written from the port B of BRAM.
+
+![image-20210120173355309](README.assets/image-20210120173355309.png)
+
+
 
 
 
