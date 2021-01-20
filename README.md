@@ -2,6 +2,8 @@
 
 **Date:2021/1/20     Author: YJ Guan**
 
+**Platform: Zedboard+Vivado 2020.1+Vitis**
+
 ### Part 1 - Block Diagram
 
 ![image-20210120172046566](README.assets/image-20210120172046566.png)
@@ -33,8 +35,3 @@ Address =  BRAM_ADDR
 Button T18 on zedboard is set as a interrupt port. The PS reading part is interrupted until T18 is pushed. Before that, BRAM can be written from the port B of BRAM.
 
 ![image-20210120173355309](README.assets/image-20210120173355309.png)
-
-
-
-
-
