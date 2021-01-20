@@ -230,3 +230,9 @@ selectButton(PAResourceAtoD.CustomizeCoreDialog_DOCUMENTATION, "Documentation");
 selectMenuItem(PAResourceCommand.PACommandNames_SHOW_PRODUCT_GUIDE, "Product Guide"); // ai (ao, r)
 // Run Command: PAResourceCommand.PACommandNames_SHOW_PRODUCT_GUIDE
 // HMemoryUtils.trashcanNow. Engine heap size: 1,149 MB. GUI used memory: 78 MB. Current time: 1/20/21, 5:22:28 PM CST
+// Elapsed time: 516 seconds
+dismissDialog("Re-customize IP"); // r (cs)
+// Elapsed time: 1144 seconds
+setText(PAResourceQtoS.RSBBlockPropPanels_NAME, "blk_mem_gen_0"); // ac (Q, cs)
+// Elapsed time: 257 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 854, 272, 1224, 530, false, false, false, true, false); // hq (m, cs) - Popup Trigger

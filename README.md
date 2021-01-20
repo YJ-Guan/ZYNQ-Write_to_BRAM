@@ -14,13 +14,19 @@
 
 <img src="README.assets/image-20210120172424861.png" alt="image-20210120172424861" style="zoom: 80%;" />
 
-**Write/Read from PS through AXI BRAM Controller:**
+<img src="README.assets/image-20210120174823506.png" alt="image-20210120174823506" style="zoom:67%;" />
+
+##### **Write/Read from PS through AXI BRAM Controller:**
 
 Address = *XPAR_AXI_BRAM_CTRL_1_S_AXI_BASEADDR (PS Offset)*+ BRAM_ADDR
 
-**Write/Read Directly to BRAM through BRAM_PORT through PL:**
+**Ex:** Address = 0x4000_0000+ 0x0000_0010
+
+##### **Write/Read Directly to BRAM through BRAM_PORT through PL:**
 
 Address =  BRAM_ADDR
+
+**Ex:** Address =  0x0000_0010
 
 ### Part 3 - Implementation
 
