@@ -4,44 +4,23 @@
 
 ### Part 1 - Block Diagram
 
-![image-20210120171612228](image-20210120171612228.png)
+![image-20210120172046566](README.assets/image-20210120172046566.png)
 
 ### Part 2 - Operating Mode
 
+`Content from Xilinx PG058`
+
+**Write First Mode:** In WRITE_FIRST mode, the input data is simultaneously written into memory and driven on the data output, as shown in Figure 3-9. This transparent mode offers the flexibility of using the data output bus during a Write operation on the same port.
+
+<img src="README.assets/image-20210120172424861.png" alt="image-20210120172424861" style="zoom: 80%;" />
+
+**Write/Read from PS through AXI BRAM Controller:**
+
+Address = XPAR_AXI_BRAM_CTRL_1_S_AXI_BASEADDR (PS Offset)+ BRAM_ADDR
+
+**Write/Read Directly to BRAM through BRAM_PORT through PL:**
+
+Address =  BRAM_ADDR
 
 
-
-### Part 3 - Result & Verification
-
-###### Cygwin g++ is used in this assignment.
-
-
-
-##### Test case :
-
-```c++
-#include "template.hpp"
-#include <iostream>
-
-int main()
-{
-    std::cout << std::boolalpha << is_incrementable<int>() << std::endl;
-    std::cout << is_incrementable<std::string>() << std::endl;
-    return 0;
-}
-```
-
-```c++
-Result:
-ture
-false
-```
-
-![](D:\OneDrive\CS205_C\Assignment\Assignment7\1.png)
-
-
-### Part 4 - Difficulties & Solutions
-
-1.  It's hard to understand the template metaprogramming techique for a beginner to C++. 
-2.  SFINAE rule that is when substituting the explicitly specified or deduced type for the template parameter fails, the specialization is discarded from the overload set instead of causing a compile error provides various possibility and uses for metaprogramming including type recongization etc.
 
